@@ -16,7 +16,7 @@ class Questao2Test {
 
     @Test
     @DisplayName("Should validate password")
-    void shouldBuildString() {
+    void shouldValidatePassword() {
         int saidaEsperada = 3;
         String senha = "Ya3";
         int saida = questao2.validaSenha(senha);

@@ -8,15 +8,23 @@ public class DesafioCapgeminiMain {
 
         Questao1 questao1 = new Questao1();
         Questao2 questao2 = new Questao2();
+        Questao3 questao3 = new Questao3();
 
         System.out.println("Questão 1:");
         System.out.println("Informe um número: ");
         int n = sc.nextInt();
         System.out.println(questao1.criaEscada(n));
+
         System.out.println("\n##############################");
         System.out.println("\nQuestão 2:");
         System.out.println("Digite uma senha: ");
         String senha = sc.next();
         System.out.println(questao2.validaSenha(senha));
+
+        System.out.println("\n##############################");
+        System.out.println("\nQuestão 3:");
+        System.out.println("Digite uma palavra: ");
+        String palavra = sc.next();
+        System.out.println(questao3.contaAnagramas(palavra));
     }
 }
